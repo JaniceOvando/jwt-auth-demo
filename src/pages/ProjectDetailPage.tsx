@@ -61,14 +61,14 @@ function ProjectDetailPage({ token, project, onBack }: ProjectDetailPageProps) {
   return (
     <div className="pd-container">
       <button className="pd-back" onClick={onBack}>
-        ← Back to projects
+        Regresar a Proyectos
       </button>
 
       <h1>{project.name}</h1>
       <p className="pd-desc">{project.description}</p>
 
       <button className="pd-add-btn" onClick={() => setShowForm(true)}>
-        + Add task
+        Guardar task
       </button>
 
       <div className="pd-list-card">

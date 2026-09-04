@@ -1,7 +1,7 @@
 .pp-container {
     min-height: 100vh;
-    background: #f5f6f8;
-    color: #202124;
+    background: #000000;
+    color: #fefeff;
     font-family: "Trebuchet MS", sans-serif;
     padding: 35px;
 }
@@ -31,7 +31,7 @@
 
 .pp-user {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     gap: 9px;
     font-family: "Trebuchet MS", sans-serif;
     color: #4b5056;

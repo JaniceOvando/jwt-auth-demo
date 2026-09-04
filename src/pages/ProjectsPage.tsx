@@ -82,42 +82,39 @@ function ProjectsPage({
     <div className="pp-container">
       <div className="pp-topbar">
         <div>
-          <h1>Projects</h1>
-          <p className="pp-subtitle">
-            Organiza tu trabajo y administra tus tareas.
-          </p>
-        </div>
+          <h1>Projectos</h1>
+          </div>
         <div className="pp-user">
           <span className="pp-avatar">{username[0]?.toUpperCase()}</span>
           <span>{username}</span>
           <button className="pp-logout" onClick={onLogout}>
-            Logout
+           salir
           </button>
         </div>
       </div>
 
       <button className="pp-add-btn" onClick={openNew}>
-        + Add project
+        nuevo projecto
       </button>
 
       <div className="pp-list-card">
-        <h2>Projects ({projects.length})</h2>
+        <h2>Projectos ({projects.length})</h2>
 
         {projects.map((project) => (
           <div key={project.id} className="pp-row">
             <div>
               <h3>{project.name}</h3>
               <p>{project.description}</p>
-              <span className="pp-id">ID {project.id}</span>
+              <span className="pp-id">identificacion {project.id}</span>
             </div>
             <div className="pp-row-actions">
-              <button onClick={() => onOpenProject(project)}>OPEN</button>
-              <button onClick={() => openEdit(project)}> EDIT</button>
+              <button onClick={() => onOpenProject(project)}>Abrir</button>
+              <button onClick={() => openEdit(project)}> Editar</button>
               <button
                 className="pp-delete"
                 onClick={() => handleDelete(project.id)}
               >
-                 DELETE
+                 Borrar
               </button>
             </div>
           </div>
@@ -139,7 +136,7 @@ function ProjectsPage({
             </label>
 
             <label>
-              Description
+              Descripcion
               <textarea
                 value={form.description}
                 onChange={(e) =>
@@ -150,7 +147,7 @@ function ProjectsPage({
 
             <div className="pp-modal-actions">
               <button className="pp-cancel" onClick={closeModal}>
-                Cancel
+                Cancelar
               </button>
               <button className="pp-save" onClick={handleSubmit}>
                 {modal === "new" ? "Create project" : "Save"}

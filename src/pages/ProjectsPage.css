@@ -1,11 +1,8 @@
 .pd-container {
     min-height: 100vh;
-
     background: #f5f6f8;
     color: #202124;
-
     font-family: "Segoe UI", sans-serif;
-
     padding: 35px;
 }
 
@@ -42,8 +39,8 @@
     background: #202124;
     color: #ffffff;
     border: none;
-    padding: 11px 19px;
-    border-radius: 22px;
+    padding: auto;
+    border-radius: 10px;
     font-weight: 600;
     font-family: "Segoe UI", sans-serif;
     cursor: pointer;
@@ -71,7 +68,6 @@
 .pd-row {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     border: 1px solid #e5e7eb;
     border-radius: 14px;
     padding: 17px;

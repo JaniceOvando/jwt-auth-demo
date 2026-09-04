@@ -34,7 +34,7 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background-color: #d9a441;
+  background-color: #1beb1b;
   color: #141414;
   display: flex;
   align-items: center;
@@ -45,14 +45,14 @@
 .pp-logout {
   background: none;
   border: none;
-  color: #d9a441;
+  color: #41e40f;
   font-family: system-ui, sans-serif;
   font-weight: 600;
   cursor: pointer;
 }
 
 .pp-add-btn {
-  background-color: #d9a441;
+  background-color: #3bd813;
   color: #141414;
   border: none;
   padding: 12px 20px;
@@ -109,7 +109,7 @@
 .pp-row-actions button {
   background: none;
   border: none;
-  color: #d9a441;
+  color: #85eb10;
   font-weight: 700;
   font-size: 12px;
   cursor: pointer;
@@ -198,7 +198,7 @@
 }
 
 .pp-save {
-  background-color: #d9a441;
+  background-color: #53e90e;
   border: none;
   color: #141414;
   padding: 8px 14px;

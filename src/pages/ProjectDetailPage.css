@@ -1,8 +1,8 @@
 .pd-container { min-height: 100vh; background-color: #141414; color: #eee; font-family: Georgia, serif; padding: 32px; }
-.pd-back { background: none; border: none; color: #d9a441; font-family: system-ui, sans-serif; font-weight: 700; cursor: pointer; margin-bottom: 16px; font-size: 13px; }
+.pd-back { background: none; border: none; color: #35e21e; font-family: system-ui, sans-serif; font-weight: 700; cursor: pointer; margin-bottom: 16px; font-size: 13px; }
 .pd-container h1 { font-size: 32px; margin: 0 0 4px 0; }
 .pd-desc { color: #999; margin: 0 0 20px 0; }
-.pd-add-btn { background-color: #d9a441; color: #141414; border: none; padding: 12px 20px; border-radius: 8px; font-weight: 700; font-family: system-ui, sans-serif; cursor: pointer; margin-bottom: 20px; }
+.pd-add-btn { background-color: #3cca20; color: #141414; border: none; padding: 12px 20px; border-radius: 8px; font-weight: 700; font-family: system-ui, sans-serif; cursor: pointer; margin-bottom: 20px; }
 .pd-list-card { background-color: #1f1f1f; border-radius: 12px; padding: 20px; }
 .pd-list-card h2 { font-size: 20px; margin: 0 0 16px 0; }
 .pd-row { display: flex; justify-content: space-between; align-items: center; border: 1px solid #333; border-radius: 8px; padding: 16px; margin-bottom: 12px; }
@@ -20,4 +20,4 @@
 .pd-modal input, .pd-modal textarea { background-color: #141414; border: 1px solid #444; border-radius: 6px; padding: 10px; color: white; font-size: 14px; font-family: system-ui, sans-serif; }
 .pd-modal-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 8px; }
 .pd-cancel { background: none; border: 1px solid #555; color: white; padding: 8px 14px; border-radius: 6px; cursor: pointer; }
-.pd-save { background-color: #d9a441; border: none; color: #141414; padding: 8px 14px; border-radius: 6px; font-weight: 700; cursor: pointer; }
+.pd-save { background-color: #0fe221; border: none; color: #141414; padding: 8px 14px; border-radius: 6px; font-weight: 700; cursor: pointer; }

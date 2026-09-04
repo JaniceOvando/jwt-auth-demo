@@ -1,0 +1,72 @@
+.lp-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, sans-serif;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.lp-container h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.lp-subtitle {
+  color: #6b7280;
+  margin-bottom: 24px;
+}
+
+.lp-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+}
+
+.lp-card label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #374151;
+  gap: 6px;
+}
+
+.lp-card input {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.lp-card button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.lp-card button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.lp-error {
+  background-color: #fee2e2;
+  color: #b91c1c;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+}

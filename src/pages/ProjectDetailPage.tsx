@@ -88,7 +88,7 @@ function ProjectDetailPage({ token, project, onBack }: ProjectDetailPageProps) {
                 className="pd-delete"
                 onClick={() => handleDelete(task.id)}
               >
-                🗑️ DELETE
+                DELETE
               </button>
             </div>
           </div>

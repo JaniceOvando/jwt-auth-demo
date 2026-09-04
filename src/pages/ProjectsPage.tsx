@@ -112,12 +112,12 @@ function ProjectsPage({
             </div>
             <div className="pp-row-actions">
               <button onClick={() => onOpenProject(project)}>OPEN</button>
-              <button onClick={() => openEdit(project)}>✏️ EDIT</button>
+              <button onClick={() => openEdit(project)}> EDIT</button>
               <button
                 className="pp-delete"
                 onClick={() => handleDelete(project.id)}
               >
-                🗑️ DELETE
+                 DELETE
               </button>
             </div>
           </div>

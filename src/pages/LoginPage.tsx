@@ -29,7 +29,7 @@ function LoginPage({ onLogin, error, loading }: LoginPageProps) {
           <input
             value={username}
             onChange={(e) => setUsername(e.target.value)}
-            placeholder="ana"
+            placeholder="user"
           />
         </label>
 

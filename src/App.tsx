@@ -16,7 +16,7 @@ function App() {
     try {
       await login({ username: user, password });
     } catch {
-      // el error ya se guarda en el hook y se muestra en LoginPage
+      
     }
   }
 

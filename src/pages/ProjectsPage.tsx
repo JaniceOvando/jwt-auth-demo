@@ -84,7 +84,7 @@ function ProjectsPage({
         <div>
           <h1>Projects</h1>
           <p className="pp-subtitle">
-            Organize your work and keep every task moving.
+            Organiza tu trabajo y administra tus tareas.
           </p>
         </div>
         <div className="pp-user">
